@@ -1,0 +1,258 @@
+[
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Happy path account creation scenarios single",
+    "tags": [],
+    "uri": "/Volumes/Transcend/Meetup_14072017/nightwatch-demo-copy/features/end_to_end.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User can create account with valid details",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@demo"
+          },
+          {
+            "line": 12,
+            "name": "@demo_paralall"
+          }
+        ],
+        "id": "happy-path-account-creation-scenarios-single;user-can-create-account-with-valid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 6225
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Volumes/Transcend/Meetup_14072017/nightwatch-demo-copy/features/step_definitions/steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 10139
+            },
+            "line": 16,
+            "match": {
+              "location": "/Volumes/Transcend/Meetup_14072017/nightwatch-demo-copy/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 1880
+            },
+            "line": 17,
+            "match": {
+              "location": "/Volumes/Transcend/Meetup_14072017/nightwatch-demo-copy/features/step_definitions/steps.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 505
+            },
+            "line": 18,
+            "match": {
+              "location": "/Volumes/Transcend/Meetup_14072017/nightwatch-demo-copy/features/step_definitions/steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 59
+            },
+            "line": 19,
+            "match": {
+              "location": "/Volumes/Transcend/Meetup_14072017/nightwatch-demo-copy/features/step_definitions/steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he creates account with details autouser, tester, test@test.com and password1",
+            "result": {
+              "status": "passed",
+              "duration": 930
+            },
+            "line": 20,
+            "match": {
+              "location": "/Volumes/Transcend/Meetup_14072017/nightwatch-demo-copy/features/step_definitions/steps.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should be created successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1222
+            },
+            "line": 21,
+            "match": {
+              "location": "/Volumes/Transcend/Meetup_14072017/nightwatch-demo-copy/features/step_definitions/steps.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 134
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Volumes/Transcend/Meetup_14072017/nightwatch-demo-copy/features/step_definitions/steps.js:54"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "happy-path-account-creation-scenarios-single"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Happy path account creation scenarios",
+    "tags": [],
+    "uri": "/Volumes/Transcend/Meetup_14072017/nightwatch-demo-copy/features/end_to_end_demo_parallel_tests.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "User can create account with valid details",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@demo_paralall"
+          }
+        ],
+        "id": "happy-path-account-creation-scenarios;user-can-create-account-with-valid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 6075
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Volumes/Transcend/Meetup_14072017/nightwatch-demo-copy/features/step_definitions/steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 10243
+            },
+            "line": 7,
+            "match": {
+              "location": "/Volumes/Transcend/Meetup_14072017/nightwatch-demo-copy/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 1872
+            },
+            "line": 8,
+            "match": {
+              "location": "/Volumes/Transcend/Meetup_14072017/nightwatch-demo-copy/features/step_definitions/steps.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 445
+            },
+            "line": 9,
+            "match": {
+              "location": "/Volumes/Transcend/Meetup_14072017/nightwatch-demo-copy/features/step_definitions/steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 63
+            },
+            "line": 10,
+            "match": {
+              "location": "/Volumes/Transcend/Meetup_14072017/nightwatch-demo-copy/features/step_definitions/steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he creates account with details autouser, tester, test@test.com and password1",
+            "result": {
+              "status": "passed",
+              "duration": 967
+            },
+            "line": 11,
+            "match": {
+              "location": "/Volumes/Transcend/Meetup_14072017/nightwatch-demo-copy/features/step_definitions/steps.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should be created successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1275
+            },
+            "line": 12,
+            "match": {
+              "location": "/Volumes/Transcend/Meetup_14072017/nightwatch-demo-copy/features/step_definitions/steps.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 100
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Volumes/Transcend/Meetup_14072017/nightwatch-demo-copy/features/step_definitions/steps.js:54"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "happy-path-account-creation-scenarios"
+  }
+]
