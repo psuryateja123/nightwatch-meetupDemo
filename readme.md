@@ -1,6 +1,6 @@
-This sample code will allow user to create a flow based based approach, without needing to create a feature file but by using BDD principles.
+This sample code will allow user to create a flow based based approach, by creating feature file and usig page object model.
 
-Here the code was moodularised to make it reusable.
+. In page objects, there are [page objects](https://github.com/psuryateja123/nightwatch-meetupDemo/tree/master/page_objects) that are created with respect to the page names.
 
 
 # End to End Tests
