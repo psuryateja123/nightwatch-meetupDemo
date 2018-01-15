@@ -13,27 +13,15 @@ Run npm install
 Run npm start for phantomjs
 Run npm run start:chome for chrome
 To run the test, in the terminal use 
-    "start": "nightwatch --tag demo",
-    "start:chrome": "nightwatch --tag demo --env chrome",
-    "start:parallel-single-browser": "nightwatch --tag demo_paralall --env chrome",
-    "start:parallel-multiple-browser": "nightwatch --tag demo --env chrome,firefox"
+    <br /> "start": "nightwatch --tag demo",
+    <br /> "start:chrome": "nightwatch --tag demo --env chrome",
+    <br /> "start:parallel-single-browser": "nightwatch --tag demo_paralall --env chrome",
+    <br /> "start:parallel-multiple-browser": "nightwatch --tag demo --env chrome,firefox"
+
+This was presented in London SDET meetup at skills matter on 14 June 2017. 
     
     
 
-## Notes
-
-To change the base url navigate to nightwatch.conf.js and modify test_settings, default,launch_url to new url.
-
-
-## Scenarios covered
-
-Scenario Outline: 1.4 NL Market Happy path to book ticket
-
-Scenario Outline: 1.5 NL Market Happy path to book ticket and fill the traveller details without Infant
-
-Scenario Outline: 1.6 NL Market Happy path to book ticket and fill the traveller details with Infant
-
-Scenario Outline: 1.7 Non - UK Market Happy path to book ticket
 
 
 
